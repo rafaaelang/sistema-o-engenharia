@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
+
+  <title>Landing Page Web Design</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+  <nav>
+    <div class="nav__header">
+      <div class="nav__logo">
+        <a href="#"><img src="img/logo.png" alt="logo" />Power</a>
+      </div>
+      <div class="nav_menu_btn" id="menu-btn">
+        <span><i class="ri-menu-line"></i></span>
+      </div>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li class="link"><a href="#Início">Início</a></li>
+      <li class="link"><a href="#Sobre">Sobre</a></li>
+      <li class="link"><a href="#Aulas">Aulas</a></li>
+      <li class="link"><a href="#Trainadores">Trainadores</a></li>
+      <li class="link"><a href="#Preços">Preços</a></li>
+      <li class="link"><button class="btn">Contate-nos</button></li>
+    </ul>
+  </nav>
+  <div class="section_container header_container" id="home">
+    <div class="header__image">
+      <img src="img/header.png" alt="header" />
+    </div>
+    <div class="header__content">
+      <h4>Construa seu corpo &</h4>
+      <h1 class="section__header">Molde-se!!</h1>
+      <p>
+        Liberte o seu potencial e embarque numa viagem em direção a uma vida mais forte,
+        mais apto e mais confiante você. Inscreva-se no programa 'Faça seu corpo'
+        agora e testemunhe a incrível transformação que seu corpo é capaz
+        de!
+      </p>
+      <div class="header__btn">
+        <button class="btn">Junte-se hoje</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section_container about_container" id="about">
+  <div class="about__image">
+    <img class="about__bg" src="img/dot-bg.png" alt="bg" />
+    <img src="img/about.png" alt="about" />
+  </div>
+  <div class="about__content">
+    <h2 class="section__header">Nossa história</h2>
+    <p class="section__description">
+      Liderado por nossa equipe de instrutores especializados e motivacionais, "The Class You
+      Will Get Here" é uma sessão de alta energia e orientada para resultados que combina
+      uma mistura perfeita de cardio, treinamento de força e funcional
+      exercícios.
+    </p>
+    <div class="about__grid">
+      <div class="about__card">
+        <span><i class="ri-open-arm-line"></i></span>
+        <div>
+          <h4>Abra a porta policia</h4>
+          <p>
+            Acreditamos em fornecer acesso irrestrito a todos os indivíduos,
+            independentemente do seu nível de condicionamento físico, idade ou origem.
+          </p>
+        </div>
+      </div>
+      <div class="about__card">
+        <span><i class="ri-shield-cross-line"></i></span>
+        <div>
+          <h4>Totalmente Segurado</h4>
+          <p>
+            Sua tranquilidade é nossa principal prioridade e nosso compromisso com
+            sua segurança se estende a todos os aspectos de sua jornada de preparação física.
+          </p>
+        </div>
+      </div>
+      <div class="about__card">
+        <span><i class="ri-p2p-line"></i></span>
+        <div>
+          <h4>Treinador pessoal</h4>
+          <p>
+            Com planos de treino personalizados e adaptados às suas necessidades, iremos
+            garantir que você aproveite ao máximo sua experiência na academia.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_container class_container" id="class">
+  <h2 class="section__header">Nossos treinadores</h2>
+  <p class="section__description">
+    Descubra uma grande variedade de aulas emocionantes em nossa academia, projetadas para
+    atender a todos os níveis de condicionamento físico e interesses. Quer você seja um experiente
+    atleta ou apenas começando sua jornada fitness, nossas aulas oferecem
+    algo para todos.
+  </p>
+  <div class="class__grid">
+    <div class="class__card">
+      <img src="img/dot-bg.png" alt="bg" class="class__bg" />
+      <img src="img/class-1.jpg" alt="class" />
+      <div class="class__content">
+        <h4>treinamento de força</h4>
+        <p>treinamento de resistência</p>
+      </div>
+    </div>
+    <div class="class__card">
+      <img src="img/dot-bg.png" alt="bg" class="class__bg" />
+      <img src="img/class-2.jpg" alt="class" />
+      <div class="class__content">
+        <h4>Flexibilidade e Mobilidade</h4>
+        <p>Ioga e Pilates</p>
+      </div>
+    </div>
+    <div class="class__card">
+      <img src="img/dot-bg.png" alt="bg" class="class__bg" />
+      <img src="img/class-3.jpg" alt="class" />
+      <div class="class__content">
+        <h4>HIIT</h4>
+        <p>Treinamento em Circuito</p>
+      </div>
+    </div>
+    <div class="class__card">
+      <img src="img/dot-bg.png" alt="bg" class="class__bg" />
+      <img src="img/class-4.jpg" alt="class" />
+      <div class="class__content">
+        <h4>Fitness em grupo</h4>
+        <p>Zumba ou Dança</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_container trainer_container" id="trainer">
+  <h2 class="section__header">Nossos treinadores</h2>
+  <p class="section__description">
+    Nossos treinadores são mais do que apenas especialistas em exercícios; eles são apaixonados
+    sobre ajudá-lo a atingir seus objetivos de saúde e condicionamento físico. Nossos treinadores
+    estão equipados para adaptar programas de treino para atender às suas necessidades exclusivas.
+  </p>
+  <div class="trainer__grid">
+    <div class="trainer__card">
+      <img src="img/trainer-1.jpg" alt="trainer" />
+    </div>
+    <div class="trainer__card">
+      <div class="trainer__content">
+        <h4>Fernando Rodriguez</h4>
+        <h5>Força e Condicionamento</h5>
+        <hr />
+        <p>
+          Com experiência em esportes competitivos, ele se dedica a ajudar
+          você atinge seu pico de desempenho físico.
+        </p>
+        <div class="trainer__socials">
+          <a href="Link Aqui"><i class="ri-facebook-fill"></i></a>
+          <a href="Link Aqui"><i class="ri-google-fill"></i></a>
+          <a href="Link Aqui"><i class="ri-instagram-line"></i></a>
+          <a href="Link Aqui"><i class="ri-whatsapp-line"></i></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="trainer__card">
+      <img src="img/trainer-2.jpg" alt="trainer" />
+    </div>
+    <div class="trainer__card">
+      <div class="trainer__content">
+        <h4>Rodigo Gomes</h4>
+        <h5>HIIT e Funcional</h5>
+        <hr />
+        <p>
+          Seus treinos energéticos e dinâmicos são projetados para impulsionar seu
+          limites, aumentar o metabolismo e queimar calorias.
+        </p>
+        <div class="trainer__socials">
+          <a href="Link Aqui"><i class="ri-facebook-fill"></i></a>
+          <a href="Link Aqui"><i class="ri-google-fill"></i></a>
+          <a href="Link Aqui"><i class="ri-instagram-line"></i></a>
+          <a href="Link Aqui"><i class="ri-whatsapp-line"></i></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="trainer__card">
+      <img src="img/trainer-3.jpg" alt="trainer" />
+    </div>
+    <div class="trainer__card">
+      <div class="trainer__content">
+        <h4>Camila Correia</h4>
+        <h5>Ioga e Atenção Plena</h5>
+        <hr />
+        <p>
+          As sessões de Emily são sobre posturas físicas e também sobre
+          cultivando a paz interior e a atenção plena.
+        </p>
+        <div class="trainer__socials">
+          <a href="Link Aqui"><i class="ri-facebook-fill"></i></a>
+          <a href="Link Aqui"><i class="ri-google-fill"></i></a>
+          <a href="Link Aqui"><i class="ri-instagram-line"></i></a>
+          <a href="Link Aqui"><i class="ri-whatsapp-line"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_container price_container" id="price">
+  <h2 class="section__header">Nossos Preços</h2>
+  <p class="section__description">
+    Nosso plano de preços vem com vários níveis de associação, cada um adaptado para
+    atender a diferentes preferências e aspirações de condicionamento físico.
+  </p>
+  <div class="price__grid">
+    <div class="price__card">
+      <div class="price__content">
+        <h4>Plano Básico</h4>
+        <img src="img/price-1.png" alt="price" />
+        <p>
+          Nosso Plano Básico é o ponto de partida perfeito para pessoas físicas
+          procurando iniciar sua jornada de preparação física ou manter uma atividade
+          estilo de vida.
+        </p>
+        <hr />
+        <h4>Características Principais</h4>
+        <p>Plano de Treino Inteligente</p>
+        <p>Treinos em Casa</p>
+      </div>
+      <button class="btn">Entrar</button>
+    </div>
+    <div class="price__card">
+      <div class="price__content">
+        <h4>Plano Semanal</h4>
+        <img src="img/price-2.png" alt="price" />
+        <p>
+          Nosso plano semanal é projetado para fornecer estrutura e variedade para
+          seus treinos, garantindo que você permaneça motivado e no caminho certo.
+        </p>
+        <hr />
+        <h4>Características Principais</h4>
+        <p>Academias PRO</p>
+        <p>Plano de Treino Inteligente</p>
+        <p>Treinos em Casa</p>
+      </div>
+      <button class="btn">Entrar</button>
+    </div>
+    <div class="price__card">
+      <div class="price__content">
+        <h4>Plano Mensal</h4>
+        <img src="img/price-3.png" alt="price" />
+        <p>
+          Com esta assinatura flexível, você terá acesso ao nosso
+          academias de última geração, treinadores especializados e um ambiente vibrante
+          comunidade de fitness
+        </p>
+        <hr />
+        <h4>Principais Recursos</h4>
+        <p>Treinamento Pessoal</p>
+        <p>Ginásios e Aulas ELITE</p>
+        <p>Academias PRO</p>
+        <p>Plano de Treino Inteligente</p>
+        <p>Treinos em Casa</p>
+        <p>Treinamento Pessoal</p>
+      </div>
+      <button class="btn">Entrar</button>
+    </div>
+  </div>
+  <form class="form" action="#">
+
+    <h1 class="titulo-form">Formulário de Cadastro</h1>
+
+    <div class="input-group">
+
+      <input type="text" name="text" class="input"  autocomplete="off" required="">
+      <label class="user-label">Nome</label>
+
+    </div>
+
+    <div class="input-group">
+
+      <input type="text" name="email" class="input"  autocomplete="off" required="">
+      <label class="user-label">E-mail</label>
+
+    </div>
+
+    <div class="input-group">
+
+      <input type="text" name="assunto" class="input"  autocomplete="off" required="">
+      <label class="user-label">Senha</label>
+
+    </div>
+
+    <div class="input-group">
+
+      <textarea type="text" class="textarea" name="mensagem" rows="4" autocomplete="off" required=""></textarea>
+      <label class="user-label">Mensagem</label>
+
+    </div>
+
+    <button class="btn-gradient">Enviar</button>
+
+  </form>
+</section>
+
+<section class="section_container client_container" id="client">
+  <h2 class="section__header">O Que as Pessoas Dizem Sobre Nós?</h2>
+  <p class="section__description">
+    Esses depoimentos servem como prova do nosso compromisso em ajudar
+    indivíduos atingem seus objetivos de condicionamento físico e promovem um apoio
+    ambiente para todos que passam por nossas portas.
+  </p>
+  <!-- Contêiner principal do controle deslizante -->
+  <div class="swiper">
+    <!-- Wrapper adicional necessário -->
+    <div class="swiper-wrapper">
+      <!-- Apresentações -->
+      <div class="swiper-slide">
+        <div class="client__card">
+          <img src="img/client-1.jpg" alt="client" />
+          <div class="client__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-line"></i></span>
+          </div>
+          <p>
+            Os treinadores daqui personalizaram um plano que equilibrou minha vida profissional
+            demandas, e tenho visto um progresso notável em meu condicionamento físico
+            jornada. Não é apenas uma academia; é meu santuário para autocuidado.
+          </p>
+          <h4>Fernando Silva</h4>
+          <h5>Gerente de marketing</h5>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="client__card">
+          <img src="img/client-2.jpg" alt="client" />
+          <div class="client__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-half-fill"></i></span>
+          </div>
+          <p>
+            A experiência dos treinadores e o compromisso da academia com a limpeza
+            durante esses tempos, tornaram-no um porto seguro para eu manter
+            minha saúde e desestressar.
+          </p>
+          <h4>Emily Garcia</h4>
+          <h5>Enfermeira registrada</h5>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="client__card">
+          <img src="img/client-3.jpg" alt="client" />
+          <div class="client__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-half-fill"></i></span>
+            <span><i class="ri-star-line"></i></span>
+          </div>
+          <p>
+            A variedade de aulas e a comunidade de apoio me mantiveram
+            motivado. Perdi quilos, ganhei confiança e encontrei um novo
+            nível de energia para inspirar meus alunos.
+          </p>
+          <h4>João Davis</h4>
+          <h5>Professor</h5>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="client__card">
+          <img src="img/client-4.jpg" alt="client" />
+          <div class="client__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <p>
+            O acesso 24 horas por dia, 7 dias por semana a esta academia foi um salva-vidas. Quer seja um
+  treino noturno ou uma sessão matinal, a conveniência
+  aqui é imbatível.
+  </p>
+  <h4>David Martinez</h4>
+  <h5>Empreendedor</h5>
+  </div>
+  </div>
+  </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="section_container footer_container">
+    <div class="rodape__col">
+      <div class="footer__logo">
+        <a href="#"><img src="img/logo.png" alt="logo" />Power</a>
+      </div>
+      <p>
+        Dê o primeiro passo em direção a uma pessoa mais saudável e forte com nosso
+        planos de preços imbatíveis. Vamos suar, alcançar e conquistar
+        junto!
+      </p>
+      <div class="footer__socials">
+        <a href="Link Aqui"><i class="ri-facebook-fill"></i></a>
+        <a href="Link Aqui"><i class="ri-instagram-line"></i></a>
+        <a href="Link Aqui"><i class="ri-whatsapp-line"></i></a>
+      </div>
+    </div>
+    <div class="rodape__col">
+      <h4>Empresa</h4>
+      <div class="footer__links">
+        <a href="#">Negócios</a>
+        <a href="#">Franquia</a>
+        <a href="#">Parceria</a>
+        <a href="#">Rede</a>
+      </div>
+    </div>
+    <div class="rodape__col">
+      <h4>Sobre nós</h4>
+      <div class="footer__links">
+        <a href="#">Blogs</a>
+        <a href="#">Segurança</a>
+        <a href="#">Carreiras</a>
+      </div>
+    </div>
+    <div class="rodape__col">
+      <h4>Contato</h4>
+      <div class="footer__links">
+        <a href="#">Empresa</a>
+        <a href="#">política de Privacidade</a>
+        <a href="#">termos e Condições</a>
+        <a href="#">Calculadora de IMC</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bar">
+    Copyright ©️ 2024 Web Design Mastery. Todos os direitos reservados.
+  </div>
+</footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
